@@ -10,7 +10,7 @@ import numpy as np
 from qiskit import(QuantumCircuit,QuantumRegister,ClassicalRegister,execute,Aer)
 from qiskit.visualization import plot_histogram
 from qiskit import IBMQ
-# MY_API_TOKEN = '10c9f8c082b4a92d552b9b27f33678b295cffd88dd81476b0dc6f1acac46316687c9b948c57b5ee34de862e9a982909ac44bcb3f6f7941cfb7a19b57efe704e7'
+# MY_API_TOKEN = 'account_token'
 # IBMQ.save_account('MY_API_TOKEN')
 IBMQ.load_account()
 
